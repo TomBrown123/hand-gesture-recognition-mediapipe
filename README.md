@@ -1,4 +1,6 @@
 # hand-gesture-recognition-using-mediapipe
+The app.py file has been modified to pull an MJPG video stream from the Unitree A1 and demonstrate hand gesture recognition. RobotVisionSystem, which begins on startup if the lidar camera isn't connected, must be running on the Unitree A1 in order for it to work. If using on a remote PC, please refer to README file in HAWK_UnitreeA1 for setup of LAN and Internet connection on the Unitree A1. Once this is setup, the application can simply be started and a video stream should directly appear.
+
 Estimate hand pose using MediaPipe (Python version).<br> This is a sample 
 program that recognizes hand signs and finger gestures with a simple MLP using the detected key points.
 <br> ❗ _️**This is English Translated version of the [original repo](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe). All Content is translated to english along with comments and notebooks**_ ❗
